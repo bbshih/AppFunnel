@@ -3,9 +3,16 @@ An application created for [Code Fellows](http://www.codefellows.org) handling p
 
 The app allows students to apply through a web form and then Code Fellows staff can review and rate the applications and request interviews from applicants.
 
+See **[demo on Heroku](https://appfunnel.herokuapp.com/)**
+Create a user account to see the application or login as admin to see reviews:  
+Login: admin@admin.com  
+Password: password
+
 ![Application Form](application_form.png)
 
 ![Application Review](application_review.png)
+
+![Login Forms](login.png)
 
 
 ## Installation
