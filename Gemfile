@@ -12,6 +12,8 @@ gem 'strong_parameters'
 
 gem 'has_scope'
 
+gem 'multi_json', '1.7.3'
+
 gem 'devise', '2.1.0'
 gem 'omniauth-github'
 
@@ -58,12 +60,11 @@ end
 
 group :development do
   gem 'brakeman', :require => false
-  gem 'faker', :require => false
+  
 end
 
-group :production do
-  gem 'pg'
-end
+gem 'faker', :require => false
+
 
 gem 'jquery-rails'
 gem 'client_side_validations'
